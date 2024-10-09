@@ -1,0 +1,24 @@
+div {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    color: red;
+    border: 5px solid blue;
+    position: sticky;
+    top: 20px;
+}
+h2 {
+    color: blue;
+    border: 2px dashed red;
+}
+p {
+    border: 2px solid red;
+    color: aqua;
+    padding: 20px;
+}
+
+img {
+    margin: 20px;
+}
