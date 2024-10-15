@@ -1,0 +1,81 @@
+div {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    color: red;
+    border: 5px solid blue;
+    position: sticky;
+    top: 20px;
+}
+h2 {
+    color: blue;
+    border: 2px dashed red;
+}
+p {
+    border: 2px solid red;
+    color: black;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+
+img {
+    margin: 20px;
+}
+
+#b {
+    color: black;
+}
+
+.warna {
+    background-color: pink;
+}
+
+.font {
+    font-style: italic;
+}
+
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+}
+
+ul li {
+    color: #fff;
+    background: darkorange;
+    display: inline-block;
+    border: 2px red;
+    padding: 1rem;
+    position: relative;
+    
+}
+
+ul li:hover {
+    background: red;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: orange;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1 rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul, ul li ul:hover{
+    visibility: visible;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
